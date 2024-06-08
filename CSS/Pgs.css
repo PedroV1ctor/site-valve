@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+body{
+    cursor: crosshair;
+    background-color: #202c3c;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 1%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #1a9fff;
+    text-decoration: underline;
+}
+
+
+#cabecalho{
+    background-color: #171d25;
+}
+
+
+#cabecalho #logo{
+    width: 180px;
+}
+
+#cabecalho #menu li{
+    display: inline;
+}
+
+#inf{
+    color: white;
+    margin: 80px;
+}
+
+#inf P{
+    font-size: 20px;
+}
+
+#inf h2{
+    margin-top: 100px;
+    font-size: 43px;
+    margin-bottom: 15px;
+}
+
+#inf h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#infC{
+    color: white;
+    margin: 80px;
+}
+
+#infC p{
+    font-size: 20px;
+}
+
+#infC h2{
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+#infC h3{
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#rodape{
+    background-color: #171d25;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 80px;
+}

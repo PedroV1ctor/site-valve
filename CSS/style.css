@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+body{
+    cursor: crosshair;
+    background-color: #303030;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    padding: 1%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: #f4443c;
+    color: black;
+}
+
+.gif{
+    background: url(../gif/cabeca_valve.gif);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+#cabecalho{
+    background-color: #000000;
+}
+
+
+#cabecalho #logo{
+    width: 160px;
+}
+
+#cabecalho #menu li{
+    display: inline;
+}
+
+h1{
+    margin-top: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+h2{
+    margin: 20px;
+    font-size: 30px;
+}
+
+p{
+    color: aliceblue;
+    font-size: larger;
+    text-align: justify;
+    margin-bottom: 15px; 
+}
+
+.LogoJ{
+    margin: 20px;
+}
+
+#adq{
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#linha{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+#inf {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#inf h1{
+    color: #f4443c;
+}
+
+#inf2{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#inf2 h1{
+    color: #f4443c;
+}
+
+#fddr{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#fddr h2{
+    margin-top: 30px;
+    color: #f4443c;
+}
+
+#fddr p{
+    margin-top: 20px;
+}
+
+#infJ{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#infJ h2{
+    color: #f4443c;
+}
+
+#ftsF img{
+    display: block;
+    width: 40%;
+  
+}
+
+#ftvalve {
+    display: flex;
+    gap: 20px;
+}
+
+#ftvalve figure {
+    flex: 1;
+}
+
+#ftvalve img {
+    display: block;
+    width: 100%;
+}
+
+#imgs{
+    display: flex;
+    gap: 20px;
+}
+
+#imgs figure{
+    flex: 1;
+}
+
+#imgs img{
+    display: block;
+    width: 100%;
+}
+
+#fts{
+    display: flex;
+    gap: 20px;
+}
+
+#fts figure{
+    flex: 1;
+}
+
+#fts img{
+    display: block;
+    width: 40%;
+}
+
+
+#rodape{
+    background-color: #000000;
+    color: #f4443c;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 130px;
+}
+
+
+
+
